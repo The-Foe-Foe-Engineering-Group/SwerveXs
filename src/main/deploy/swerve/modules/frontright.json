@@ -1,12 +1,17 @@
 {
+  "location": {
+    "front": 11.25,
+    "left": -14.25
+  },
+  "absoluteEncoderOffset": 86.270,
   "drive": {
-    "type": "talonfx",
-    "id": 50,
+    "type": "krakenx60",
+    "id": 11,
     "canbus": null
   },
   "angle": {
-    "type": "talonfx",
-    "id": 8,
+    "type": "sparkmax_neo550",
+    "id": 7,
     "canbus": null
   },
   "encoder": {
@@ -18,9 +23,5 @@
     "drive": false,
     "angle": false
   },
-  "absoluteEncoderOffset": -139.043,
-  "location": {
-    "front": 7,
-    "left": 7
-  }
+  "absoluteEncoderInverted": false
 }
